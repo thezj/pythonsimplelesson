@@ -11,5 +11,6 @@ support1019.hi('hello')
 hi('hello1')
 print(supportvar1)
 
-print(dir(support1019)) # dir可以找到模块内定义的所有名称。以一个字符串列表形式返回，包含内置的‘__name__,__file__’等
+print(dir(
+    support1019))  # dir可以找到模块内定义的所有名称。以一个字符串列表形式返回，包含内置的‘__name__,__file__’等
 print(dir())
