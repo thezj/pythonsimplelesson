@@ -88,8 +88,9 @@ class processdatethread(threading.Thread):
             data = self.q.get()
             queuelock.release()
             print('{0}:processing----{1}'.format(self.name, data))
-            time.sleep(1)
             times += 1
+            time.sleep(1)
+            
         print(self.name, '关闭',times,'次工作')
 
 
